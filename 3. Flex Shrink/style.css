@@ -1,0 +1,32 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 320px;
+    background-color: #fff;
+}
+.one{
+    background-color: red;
+    flex-shrink: 1;
+}
+.two{
+    background-color: blue;
+    flex-shrink: 2;
+}
+.three{
+    background-color: green;
+    flex-shrink: 3;
+}
